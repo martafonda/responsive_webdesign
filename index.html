@@ -1,57 +1,359 @@
 <!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Responsive Web Design</title>
-	<style type="text/css" src="css/reset.css"></style>
-	<style type="text/css" src="css/box.css"></style>
-	<style type="text/css" src="css/fonts.css"></style>
-	<style type="text/css" src="css/layout.css"></style>
-	<style type="text/css" src="css/style.css"></style>
-</head>
-<body>
-	<header>
-		<div class="">
-				<div class="">
-					<p class="">
-						<a href="#" >the movie</a>
-					</p>
-					<nav class="">
-						<ul class="">
-							<li><a href="#">Movies</a></li>
-							<li><a href="#">Photos</a></li>
-							<li><a href="#">Community</a></li>
-							<li><a href="#">Watchlist</a></li>
-						</ul>
-					</nav>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title> The movie</title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/box.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+		<link rel="stylesheet" type="text/css" href="css/tuktuk.css" />
+	</head>
+	<body>		
+
+	<!-- HEADER -->
+	<header class="bck header">
+        <div class="column_8 hdr-container">
+            <div class="column_3 margin-left">
+                <p class="hdr-brand image-sprite column_2">
+					<a href="#" >the movie</a>
+				</p>
+            </div>
+            <nav class="column_4 hdr-nav">
+                <ul class="li-inline">
+					<li><a href="#">Movies</a></li>
+					<li><a href="#">Photos</a></li>
+					<li><a href="#">Community</a></li>
+					<li><a href="#">Watchlist</a></li>
+				</ul>
+            </nav>
+        </div>
+
+        <nav class="raw column_3">
+		    <form action="#" method="GET" class="tooltip-inner inline">
+				<label>Search</label>
+				<input type="search" name="search" class="column_9" />
+				<button>
+					<span>Search</span>
+				</button>
+				<div class="tooltip tlt-balign">
+					<p>Busca en nuestra web</p>
 				</div>
-				<form action="#" method="GET" class="">
-					<label>Search</label>
-					<input type="search" name="search"/>
-					<button>
-						<span>Search</span>
-					</button>
-				</form>
+			</form>
+        </nav>
+    </header>
+		<section class="carousel raw">
+		
+			<nav class="column_2">
+				<ul>
+					<li class="flecha f-izq"><a href="#" class="image-sprite"></a></li>
+					<li class="flecha f-der"><a href="#" class="image-sprite"></a></li>
+				</ul>
+			</nav>
+			<article class="crs-container raw">
+				<img src="img/ironman.jpg"/>
+				<div class="crs-txt raw">
+					<header>
+						<h1 class="crs-txt-header">Ironman<span> la película</span></h1>
+					</header>
+					<p class="crs-txt-description">When Tony Stark’s world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</p>
+
+					<ul class="cf lst-inline crst-lst-actions">
+                        <li class="h-left tooltip-inner">
+                            <p class="btn"><a class="btn-see" href="#">See trailer</a></p>
+                        </li>
+                        <li>
+                            <p class="btn"><a class="btn-add" href="#">add to watch list</a></p>
+                        </li>
+                    </ul>
+				</div>
+			</article>
+
+			<nav>
+				<ul class="lst-inline nav-points">
+					<li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+				</ul>
+			</nav>
+		</section>
+
+
+
+		
+		<section class="full-width cf">
+
+			<div class="col-1 h-left">
+
+				<article>
+					<header class="tooltip-inner head-title">
+						<h1 class="hdtitle">Themovie Snapshot - Latest Photos and Galleries</h1>
+
+							<div class="tooltip tlt-balign">
+								<p>Scarlett Johansson</p>
+							</div>
+					</header>	
+
+					<ul class="lst-inline lst-photos">
+						<li class="tooltip-inner">
+							<div class="imagen">
+								<img src="img/img-photo.png" />
+							</div>
+							<div class="tooltip tlt-talign">
+								<p>Scarlett Johansson</p>
+								<p>121 fotos</p>
+							</div>
+						</li>
+						<li class="tooltip-inner">
+							<div class="imagen">
+								<img src="img/img-photo.png" />
+							</div>
+							<div class="tooltip tlt-talign">
+								<p>Scarlett Johansson</p>
+								<p>121 fotos</p>
+							</div>
+						</li>
+						<li class="tooltip-inner">
+							<div class="imagen">
+								<img src="img/img-photo.png" />
+							</div>
+							<div class="tooltip tlt-talign">
+								<p>Scarlett Johansson</p>
+								<p>121 fotos</p>
+							</div>
+						</li>
+						<li class="tooltip-inner">
+							<div class="imagen">
+								<img src="img/img-photo.png" />
+							</div>
+							<div class="tooltip tlt-talign">
+								<p>Scarlett Johansson</p>
+								<p>121 fotos</p>
+							</div>
+						</li>
+					</ul>
+
+				</article>
+
+				<!-- TOP NEWS -->
+				<article>
+					<header class="head-title">
+						<h1 class="hdtitle">Top News</h1>
+					</header>
+					<div class="cf">
+						<figure class="top-news-image">
+							<img src="img/img-noticia.png"/>
+						</figure>
+						<div class="top-news-content">
+							<h2 class="top-news-header"><a href="#">‘Star Wars: Episode VII’: J.J. Abrams and Lawrence Kasdan now rewriting screenplay...</a></h2>
+							<p>Obi-Wan Kenobi said act on instinct - but otthers might see this as a disturbance in the Force ... Lucasfilm has announced that Star Wars: Episode VII director J.J. Abrams and Raiders of the Lost Ark writer Lawrence Kasdan have taken over screenwriting duties</p>
+						</div>
+					</div>
+
+					<aside class="cf">
+						<ul class="top-news-aside">
+							<li class="inline top half-width h-left"><a href="#">2013 Gotham Nominations, Led by ‘12 Years a Slave,’ ‘Inside Llewyn Davis’... 5 </a></li>
+							<li class="inline top half-width h-right"><a href="#">‘Gravity’ Soars Past $300 Million at Worldwide Box Office </a></li>
+						</ul>
+					</aside>
+				</article>
+
 			</div>
-	</header>
 
-	<section>
-		<nav></nav>
-		<nav></nav>
-		<article></article>
-	</section>
+			<aside class="col-2 h-right">
+				<article>
+					<header class="head-title cf">
+						<h1 class="h-left hdtitle">Box Office</h1>
+						<span class="h-right"><a href="#">see more›</a></span>
+					</header>
+					<table class="box-office-table">
+						<thead class="hidden">
+							<tr>
+								<th>Name</th>
+								<th>Values</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gravity</td>
+								<td>$30m</td>
+							</tr>
+							<tr>
+								<td>Capitán Phillips</td>
+								<td>$16.4m</td>
+							</tr>
+							<tr>
+								<td>Gravity</td>
+								<td>$30m</td>
+							</tr>
+							<tr>
+								<td>Capitán Phillips</td>
+								<td>$16.4m</td>
+							</tr>
+						</tbody>
+					</table>
+				</article>
 
-	<section>
-		<article></article>
-		<aside></aside>
-	</section>
 
-	<section>
-		<article></article>
-	</section>
+				<article class="comming-soon">
+					<header class="comming-soon-header">
+						<ul class="lst-inline">
+							<li><a href="#">Cooming Soon</a></li>
+							<li><a href="#">Opening this week</a></li>
+						</ul>
+					</header>
+					<table class="box-office-table">
+						<thead class="hidden">
+							<tr>
+								<th>Name</th>
+								<th>Values</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gravity</td>
+								<td>$30m</td>
+							</tr>
+							<tr>
+								<td>Capitán Phillips</td>
+								<td>$16.4m</td>
+							</tr>
+							<tr>
+								<td>Gravity</td>
+								<td>$30m</td>
+							</tr>
+							<tr>
+								<td>Capitán Phillips</td>
+								<td>$16.4m</td>
+							</tr>
+						</tbody>
+					</table>
 
-	<footer>
-		<nav></nav>
-	</footer>
-</body>
+				</article>
+
+				<article class="sd-shr">
+					<header class="sd-shr-hd">
+						<h1><span>Share</span> this page</h1>
+					</header>
+					<ul class="lst-inline">
+						
+						<li class="image-sprite logo-twitter sd-shr-cntr"><a href="#"></a></li>
+						<li class="image-sprite logo-facebook sd-shr-cntr"><a href="#"></a></li>
+						<li class="image-sprite logo-google sd-shr-cntr"><a href="#"></a></li>
+					</ul>
+				</article>
+
+			</aside>
+
+		</section>
+
+		<section class="full-width gray">
+			<ol class="li-inline ranking">
+				<li class="img-twitter img-twitter-full">
+					<img src="img/img-twitter.png" />
+					<div>
+						<p>80%</p>
+						<span>
+							<span></span>
+						</span>
+						<p><a href="#"><em>@megryan</em></a></p>
+					</div>
+				</li>
+				<li class="img-twitter img-twitter-empty">
+					<img src="img/img-twitter.png" />
+					<div>
+						<p>20%</p>
+						<span>
+							<span></span>
+						</span>
+						<p><a href="#"><em>@megryan</em></a></p>
+					</div>
+				</li>
+				<li class="img-twitter img-twitter-empty">
+					<img src="img/img-twitter.png" />
+					<div>
+						<p>20%</p>
+						<span>
+							<span></span>
+						</span>
+						<p><a href="#"><em>@megryan</em></a></p>
+					</div>
+				</li>
+				<li class="img-twitter img-twitter-empty">
+					<img src="img/img-twitter.png" />
+					<div>
+						<p>20%</p>
+						<span>
+							<span></span>
+						</span>
+						<p><a href="#"><em>@megryan</em></a></p>
+					</div>
+				</li>
+				<li class="img-twitter img-twitter-empty">
+					<img src="img/img-twitter.png" />
+					<div>
+						<p>20%</p>
+						<span>
+							<span></span>
+						</span>
+						<p><a href="#"><em>@megryan</em></a></p>
+					</div>
+				</li>
+				<li class="img-twitter img-twitter-empty">
+					<img src="img/img-twitter.png"/>
+					<div>
+						<p>20%</p>
+						<span>
+							<span></span>
+						</span>
+						<p><a href="#"><em>@megryan</em></a></p>
+					</div>
+				</li>
+			</ol>
+		</section>
+
+
+
+		<footer class="blue">
+			<div class="align-center full-width footer-inner">
+	
+				<div>
+					<p class="ftr-brand image-sprite"></p>
+					<nav>
+
+						<ul class="lst-inline">
+							<li><a href="#">Home</li>
+							<li><a href="#">Search</li>
+							<li><a href="#">Site Index</li>
+							<li><a href="#">In Theaters</li>
+							<li><a href="#">Coming Soon</li>
+							<li><a href="#">Top Movies</li>
+							<li><a href="#">Watchlist</li>
+							<li><a href="#">Top 250</li>
+							<li><a href="#">TV</li>
+							<li><a href="#">News</li>
+							<li><a href="#">Video</li>
+							<li><a href="#">Message Boards</li>
+							<li><a href="#">Press Room</li>
+						</ul>
+						<ul class="lst-inline middle">
+							<li><a href="#">Register</a></li>
+							<li><a href="#">RSS</a></li>
+							<li><a href="#">Advertising</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Jobs</a></li>
+						</ul>
+
+					</nav>
+
+				</div>
+			</div>
+			
+		</footer>
+
+
+	</body>
 </html>
