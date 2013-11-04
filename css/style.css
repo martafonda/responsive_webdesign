@@ -1,0 +1,27 @@
+.h-left{float:left;}
+.h-right{float:right;}
+
+.cf:before, .cf:after{  
+	content: " ";
+	display: table;
+}
+.cf:after { 
+	clear: both;
+}
+
+
+/*  ----  HEADER  ----  */
+
+
+/* ---- CAROUSEL  ---- */
+.nav-points { position: absolute; bottom: 20px; text-align: center; width: 100%; z-index: 1 }
+    .nav-points  a {  
+                background-color: white;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        display: block;
+        margin: 0 5px; 
+    }
+
+    .nav-points a:hover { background-color: #34486e; }
