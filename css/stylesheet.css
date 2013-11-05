@@ -1,0 +1,18 @@
+.relative{position: relative;}
+.absolute{position: absolute;}
+
+
+/*  CAROUSEL */
+.carousel { 
+	background: #ff5500; 
+	position: relative;
+	color:#fff;
+	font-size: 20px;
+}
+
+.crs-container img { width: 100%; display: block; }
+	.crs-txt { position: absolute; top: 30%; left: 35%; }
+	.crs-txt-description { font-size: 18px; }
+	.crs-txt-header { font: 40px 'proxima_novabold'; text-shadow: 1px 1px 0px rgba(0, 0, 0, .7); }
+		.crs-txt-header span { font-family: 'proxima_novaregular'}
+	.crst-lst-actions li { width: 48%;  }
