@@ -3,174 +3,173 @@
 	<head>
 		<meta charset="utf-8"> 
 		<title> The movie</title>
-
+		
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/box.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/fonts.css" />
-		<link rel="stylesheet" type="text/css" href="css/tuktuk.css" />
+		<link rel="stylesheet" type="text/css" href="tuktuk/tuktuk.css" />
+		<link rel="stylesheet" type="text/css" href="tuktuk/tuktuk.icons.css" />
+		<link rel="stylesheet" type="text/css" href="tuktuk/tuktuk.theme.css" />
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css" /> 
 	</head>
 	<body>		
-
 	<!-- HEADER -->
-	<header class="bck header">
-        <div class="column_8 hdr-container">
-            <div class="column_3 margin-left">
-                <p class="hdr-brand image-sprite column_2">
-					<a href="#" >the movie</a>
-				</p>
-            </div>
-            <nav class="column_4 hdr-nav">
-                <ul class="li-inline">
-					<li><a href="#">Movies</a></li>
-					<li><a href="#">Photos</a></li>
-					<li><a href="#">Community</a></li>
-					<li><a href="#">Watchlist</a></li>
-				</ul>
-            </nav>
-        </div>
-
-        <nav class="raw column_3 offset_3">
-		    <form action="#" method="GET" class="tooltip-inner inline">
-				<label>Search</label>
-				<input type="search" name="search" class="column_9" />
-				<button>
-					<span>Search</span>
-				</button>
-				<div class="tooltip tlt-balign">
-					<p>Busca en nuestra web</p>
+		<header class="padding-top">
+			<div class="row">
+		        <div class="column_7 inline">
+		            <div class="column_2">
+		                <p class="">
+							<a href="#">the movie</a>
+						</p>
+		            </div>
+		            <nav class="column_4">
+		                <ul class="">
+							<li><a href="#">Movies</a></li>
+							<li><a href="#">Photos</a></li>
+							<li><a href="#">Community</a></li>
+							<li><a href="#">Watchlist</a></li>
+						</ul>
+		            </nav>
+		        </div>
+		        <div class="column_3 h-right right">
+				    <form action="#" method="GET">
+					    <fieldset>
+								<a href="#" class="h-right" ><span class="icon search"></span></a>						
+								<input type="search" name="search"/>
+							
+							<!-- <div class="">
+								<p>Busca en nuestra web</p>
+							</div> -->
+					    </fieldset>
+					</form>
 				</div>
-			</form>
-        </nav>
-    </header>
-		<section class="carousel raw">
-		
-			<nav class="column_2">
+
+		    </div>
+	    </header>
+
+	    <!-- CAROUSEL -->
+		<section class="carousel">
+			<img class="responsive" src="img/ironman.jpg"/>
+			<nav>
 				<ul>
-					<li class="flecha f-izq"><a href="#" class="image-sprite"></a></li>
-					<li class="flecha f-der"><a href="#" class="image-sprite"></a></li>
+					<li class="nav nav-prev"><a href="#" class="img-sprite"></a></li>
+					<li class="nav nav-next"><a href="#" class="img-sprite"></a></li>
 				</ul>
 			</nav>
-			<article class="crs-container raw">
-				<img src="img/ironman.jpg"/>
-				<div class="crs-txt raw">
-					<header>
-						<h1 class="crs-txt-header">Ironman<span> la película</span></h1>
+			<article class="crs-container row">
+				
+				<div class="crs-txt column_6">
+					<header class="">
+						<h1 class="crs-txt-header text center">Ironman<span> la película</span></h1>
 					</header>
-					<p class="crs-txt-description">When Tony Stark’s world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</p>
+					<p class="crs-txt-description margin-bottom text column_6">When Tony Stark’s world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</p>
 
-					<ul class="cf lst-inline crst-lst-actions">
-                        <li class="h-left tooltip-inner">
-                            <p class="btn"><a class="btn-see" href="#">See trailer</a></p>
-                        </li>
-                        <li>
-                            <p class="btn"><a class="btn-add" href="#">add to watch list</a></p>
-                        </li>
-                    </ul>
+					<ul class="cf crst-lst-actions li-none">
+	                    <li class="h-left">
+	                        <p class="btn"><a class="btn-see" href="#"><span>See trailer</span></a></p>
+	                    </li>
+	                    <li class="h-right">
+	                        <p class="btn"><a class="btn-add" href="#"><span>add to watch list</span></a></p>
+	                    </li>
+	                </ul>
 				</div>
 			</article>
 
-			<nav>
-				<ul class="lst-inline nav-points">
-					<li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+			<nav class="nav-points row">
+				<ul class="lst-inline circle">
+					<li><a href="#"><span></span></a></li>
+	                <li><a href="#"><span></span></a></li>
+	                <li><a href="#"><span></span></a></li>
+	                <li><a href="#"><span></span></a></li>
+	                <li><a href="#"><span></span></a></li>
 				</ul>
 			</nav>
 		</section>
 
+		<section class="row">
+			<div class="column_12">
+				<article class="column_12">
+					<header class="">
+						<h1 class="">Themovie Snapshot - Latest Photos and Galleries</h1>
 
-
-		
-		<section class="full-width cf">
-
-			<div class="col-1 h-left">
-
-				<article>
-					<header class="tooltip-inner head-title">
-						<h1 class="hdtitle">Themovie Snapshot - Latest Photos and Galleries</h1>
-
-							<div class="tooltip tlt-balign">
+							<div class="">
 								<p>Scarlett Johansson</p>
 							</div>
 					</header>	
 
-					<ul class="lst-inline lst-photos">
-						<li class="tooltip-inner">
-							<div class="imagen">
+					<ul class="lst-inline lst-photos imagen">
+						<li class="">
+							<div class="">
 								<img src="img/img-photo.png" />
 							</div>
-							<div class="tooltip tlt-talign">
+							<div class="">
 								<p>Scarlett Johansson</p>
 								<p>121 fotos</p>
 							</div>
 						</li>
-						<li class="tooltip-inner">
-							<div class="imagen">
+						<li class="">
+							<div class="">
 								<img src="img/img-photo.png" />
 							</div>
-							<div class="tooltip tlt-talign">
+							<div class="">
 								<p>Scarlett Johansson</p>
 								<p>121 fotos</p>
 							</div>
 						</li>
-						<li class="tooltip-inner">
-							<div class="imagen">
+						<li class="">
+							<div class="">
 								<img src="img/img-photo.png" />
 							</div>
-							<div class="tooltip tlt-talign">
+							<div class="">
 								<p>Scarlett Johansson</p>
 								<p>121 fotos</p>
 							</div>
 						</li>
-						<li class="tooltip-inner">
-							<div class="imagen">
+						<li class="">
+							<div class="">
 								<img src="img/img-photo.png" />
 							</div>
-							<div class="tooltip tlt-talign">
+							<div class="">
 								<p>Scarlett Johansson</p>
 								<p>121 fotos</p>
 							</div>
 						</li>
 					</ul>
-
 				</article>
 
 				<!-- TOP NEWS -->
 				<article>
 					<header class="head-title">
-						<h1 class="hdtitle">Top News</h1>
+						<h1 class="">Top News</h1>
 					</header>
-					<div class="cf">
-						<figure class="top-news-image">
+					<div>
+						<figure class="column_5 left">
 							<img src="img/img-noticia.png"/>
 						</figure>
-						<div class="top-news-content">
+						<div class="column_6 top-news-content">
 							<h2 class="top-news-header"><a href="#">‘Star Wars: Episode VII’: J.J. Abrams and Lawrence Kasdan now rewriting screenplay...</a></h2>
 							<p>Obi-Wan Kenobi said act on instinct - but otthers might see this as a disturbance in the Force ... Lucasfilm has announced that Star Wars: Episode VII director J.J. Abrams and Raiders of the Lost Ark writer Lawrence Kasdan have taken over screenwriting duties</p>
 						</div>
 					</div>
 
-					<aside class="cf">
-						<ul class="top-news-aside">
-							<li class="inline top half-width h-left"><a href="#">2013 Gotham Nominations, Led by ‘12 Years a Slave,’ ‘Inside Llewyn Davis’... 5 </a></li>
-							<li class="inline top half-width h-right"><a href="#">‘Gravity’ Soars Past $300 Million at Worldwide Box Office </a></li>
+					<aside class="column_12">
+						<ul class="top-news-aside lst-inline">
+							<li class="column_6"><a href="#">2013 Gotham Nominations, Led by ‘12 Years a Slave,’ ‘Inside Llewyn Davis’... 5 </a></li>
+							<li class="column_6"><a href="#">‘Gravity’ Soars Past $300 Million at Worldwide Box Office </a></li>
 						</ul>
 					</aside>
 				</article>
 
 			</div>
 
-			<aside class="col-2 h-right">
+			<aside class="column_6">
 				<article>
-					<header class="head-title cf">
-						<h1 class="h-left hdtitle">Box Office</h1>
-						<span class="h-right"><a href="#">see more›</a></span>
+					<header class="column_6">
+						<h1 class="column_3">Box Office</h1>
+						<span class="column_2"><a href="#" class="column_6">see more›</a></span>
 					</header>
-					<table class="box-office-table">
-						<thead class="hidden">
+					<table class="">
+						<thead class="">
 							<tr>
 								<th>Name</th>
 								<th>Values</th>
@@ -198,15 +197,15 @@
 				</article>
 
 
-				<article class="comming-soon">
-					<header class="comming-soon-header">
-						<ul class="lst-inline">
-							<li><a href="#">Cooming Soon</a></li>
-							<li><a href="#">Opening this week</a></li>
+				<article class="">
+					<header class="">
+						<ul class="column_7">
+							<li class="column_3"><a href="#">Cooming Soon</a></li>
+							<li class="column_3"><a href="#">Opening this week</a></li>
 						</ul>
 					</header>
-					<table class="box-office-table">
-						<thead class="hidden">
+					<table class="">
+						<thead class="">
 							<tr>
 								<th>Name</th>
 								<th>Values</th>
@@ -234,15 +233,15 @@
 
 				</article>
 
-				<article class="sd-shr">
+				<article class="column_6 sd-shr">
 					<header class="sd-shr-hd">
 						<h1><span>Share</span> this page</h1>
 					</header>
-					<ul class="lst-inline">
+					<ul class="">
 						
-						<li class="image-sprite logo-twitter sd-shr-cntr"><a href="#"></a></li>
-						<li class="image-sprite logo-facebook sd-shr-cntr"><a href="#"></a></li>
-						<li class="image-sprite logo-google sd-shr-cntr"><a href="#"></a></li>
+						<li class="logo-facebook"><a href="#"></a></li>
+						<li class="logo-twitter"><a href="#"></a></li>
+						<li class="logo-google"><a href="#"></a></li>
 					</ul>
 				</article>
 
@@ -250,9 +249,9 @@
 
 		</section>
 
-		<section class="full-width gray">
-			<ol class="li-inline ranking">
-				<li class="img-twitter img-twitter-full">
+		<section class="bck light row ">
+			<ol>
+				<li class="img-twitter img-twitter-full column_5 padding">
 					<img src="img/img-twitter.png" />
 					<div>
 						<p>80%</p>
@@ -262,7 +261,7 @@
 						<p><a href="#"><em>@megryan</em></a></p>
 					</div>
 				</li>
-				<li class="img-twitter img-twitter-empty">
+				<li class="img-twitter img-twitter-empty column_5 padding"/>
 					<img src="img/img-twitter.png" />
 					<div>
 						<p>20%</p>
@@ -272,7 +271,7 @@
 						<p><a href="#"><em>@megryan</em></a></p>
 					</div>
 				</li>
-				<li class="img-twitter img-twitter-empty">
+				<li class="img-twitter img-twitter-empty column_5 padding">
 					<img src="img/img-twitter.png" />
 					<div>
 						<p>20%</p>
@@ -282,7 +281,7 @@
 						<p><a href="#"><em>@megryan</em></a></p>
 					</div>
 				</li>
-				<li class="img-twitter img-twitter-empty">
+				<li class="img-twitter img-twitter-empty column_5 padding">
 					<img src="img/img-twitter.png" />
 					<div>
 						<p>20%</p>
@@ -292,7 +291,7 @@
 						<p><a href="#"><em>@megryan</em></a></p>
 					</div>
 				</li>
-				<li class="img-twitter img-twitter-empty">
+				<li class="img-twitter img-twitter-empty column_5 padding">
 					<img src="img/img-twitter.png" />
 					<div>
 						<p>20%</p>
@@ -301,8 +300,8 @@
 						</span>
 						<p><a href="#"><em>@megryan</em></a></p>
 					</div>
-				</li>
-				<li class="img-twitter img-twitter-empty">
+				</li> 
+				<li class="img-twitter img-twitter-empty column_5"s>
 					<img src="img/img-twitter.png"/>
 					<div>
 						<p>20%</p>
@@ -317,11 +316,11 @@
 
 
 
-		<footer class="blue">
-			<div class="align-center full-width footer-inner">
-	
+		<footer class="">
+			<div class="">
+
 				<div>
-					<p class="ftr-brand image-sprite"></p>
+					<p class=""></p>
 					<nav>
 
 						<ul class="lst-inline">
@@ -339,7 +338,7 @@
 							<li><a href="#">Message Boards</li>
 							<li><a href="#">Press Room</li>
 						</ul>
-						<ul class="lst-inline middle">
+						<ul class="">
 							<li><a href="#">Register</a></li>
 							<li><a href="#">RSS</a></li>
 							<li><a href="#">Advertising</a></li>
