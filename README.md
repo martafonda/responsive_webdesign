@@ -1,8 +1,11 @@
 RESPONSIVE WEB DESIGN
 =====================
 
-Responsive web design project based on a movies web.
---------------------------------------------------------------
+Responsive web design project based on a movies web using TukTuk Framework
+--------------------------------------------------------------------------
+www.tuktuk.tapquo.com
+---------------------
+
 Languages: 
 	* CSS
 	* HTML5
